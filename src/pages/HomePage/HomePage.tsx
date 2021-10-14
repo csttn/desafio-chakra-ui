@@ -1,9 +1,15 @@
 import React from 'react';
 
 import { Header } from '../../components/Header';
+import { Banner } from './Banner';
 
 const HomePage: React.FC = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Banner />
+    </>
+  );
 };
 
 export { HomePage };
